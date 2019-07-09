@@ -1,0 +1,1 @@
+<?phpadd_theme_support('menus');function register_toreplace_menus() {    register_nav_menus(        array(            'header-menu' => __( 'Header Menu' ),            'footer-menu' => __( 'Footer Menu' )        )    );}add_action( 'init', 'register_toreplace_menus' );

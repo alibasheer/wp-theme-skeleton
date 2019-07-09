@@ -1,0 +1,1 @@
+<?php//[hello-world id="41621"]add_shortcode( 'hello-world', 'toreplace_slider_func' );function toreplace_slider_func( $atts ) {    $slider = '';    // Initiate attributes    $slider_atts = shortcode_atts( array(        'id' => '41621' //default id    ), $atts );    $slider .= '<div>Hello World</div>';    return $slider;}
